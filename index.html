@@ -5,27 +5,33 @@
 </head>
 <style>
 .center {
-  top: 10%;
+
   margin: auto;
   width: 40%;
 }
 .logo {
   width:288px;
   height:90px;
-  }
+}
+.container {
+  top: 100px;
+  background-color: #f6f6f6;
+}
+
 </style>
 <body>
   <div class="center">
     <div class="logo"><img src"/dgalogo.png"></div>
-    
-    <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
-    <script>
-      hbspt.forms.create({
-      region: "eu1",
-      portalId: "26548334",
-      formId: "993c9946-6d6c-465f-9b18-5f03eb414414"
-      });
-    </script>
+      <div class="container">
+      <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+      <script>
+        hbspt.forms.create({
+        region: "eu1",
+        portalId: "26548334",
+        formId: "993c9946-6d6c-465f-9b18-5f03eb414414"
+        });
+      </script>
+    </div>
   </div>
   <div class="cf-turnstile" data-sitekey="0x4AAAAAAAArc-VTRbMWDs-h" data-callback="javascriptCallback"></div>
   <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
